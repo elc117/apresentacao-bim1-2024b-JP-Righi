@@ -2,7 +2,11 @@
 
 Este documento apresenta uma análise e explicação detalhada do código fornecido em Haskell. O objetivo é ajudar quem não conhece a linguagem a entender a lógica por trás das funções e como elas se conectam.
 
+
+[Link para o Code World](https://code.world/haskell#PSAP49qms7Ahg4z1gpLm2Jw)
+
 ---
+
 
 ```haskell
 {-# LANGUAGE RecordWildCards #-}
