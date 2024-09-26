@@ -54,6 +54,7 @@ angleBetween u@(ux, uy) v@(vx, vy) = atan2 det dot
 
 O código trabalha com um mapa simples representado por uma matriz 2D de inteiros. Cada valor inteiro indica um tipo de célula no mapa, como paredes ou caminhos.
 
+<img src="Captura de tela 2024-09-26 011045.png" width="50%">
 
 ### Tipo Map
 
@@ -151,6 +152,8 @@ handle e w@(State {..}) = handle' e
     handle' (KeyRelease k) = w { keysPressed = S.delete k keysPressed }
     handle' _ = w
 ```
+
+<img src="Captura de tela 2024-09-26 010555.png" width="50%">
 
 ---
 
